@@ -1,0 +1,51 @@
+
+/* ---------------------------icon-inline--------------------------- */
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+.icon-inline{
+    width: 100%;
+    background-color: #555;
+    display: flex;
+    align-items: center;
+}
+.icon-inline i{
+    font-size: 36px;
+    width: 20%;
+    text-align: center;
+    padding: 20px 0;
+    color: #ffff;
+    transition: .4s;
+}
+.icon-inline i:hover{
+    background-color: #000;
+}
+.acetive{
+    background-color: #04AA6D;;
+}
+/* ---------------hr--------------- */
+hr{
+    margin: 10px 0;
+}
+/* ---------------------------icon-block--------------------------- */
+.icon-block{
+    width: 160px;
+    background-color: #555;
+}
+.icon-block i{
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    transition: .4s;
+}
+.icon-block i:hover{
+    background-color: #000;
+}
